@@ -6,4 +6,6 @@ test('Verify Playwright website', async ({ page }) => {
 
     await expect(page).toHaveTitle(/Playwright/);
 
+    console.log('Playwright website opened successfully');
+
 });
